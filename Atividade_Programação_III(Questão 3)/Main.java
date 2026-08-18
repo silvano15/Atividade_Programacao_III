@@ -9,6 +9,9 @@ public class Main {
 
     Processavel c = new Credito(75.00);
     finalizarCompra(c);
+
+    Processavel d = new Paypal(85.00);
+    finalizarCompra(d);
     }
 
 
