@@ -1,13 +1,13 @@
 public class Usuario {
     private String nome;
-    private int cpf;
+    private float cpf;
     private int quantidadeEmprestimos;
 
     public Usuario() {
 
     }
 
-    public Usuario(String nome, int cpf, int quantidadeEmprestimos) {
+    public Usuario(String nome, float cpf, int quantidadeEmprestimos) {
         this.nome = nome;
         this.cpf = cpf;
         this.quantidadeEmprestimos = quantidadeEmprestimos;
@@ -17,7 +17,7 @@ public class Usuario {
         return this.nome;
     }
 
-    public int getCpf() {
+    public float getCpf() {
         return this.cpf;
     }
 
