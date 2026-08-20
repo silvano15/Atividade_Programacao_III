@@ -1,4 +1,4 @@
-// Funcionario implementa Comparable<Funcionario>: isso define a
+// Funcionario  implementa Comparable<Funcionario>: isso define a
 // ORDENAÇÃO NATURAL da classe, ou seja, "qual é o jeito padrão de
 // comparar dois Funcionarios" quando ninguém especifica outro critério.
 public class Funcionario implements Comparable<Funcionario> {
