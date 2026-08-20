@@ -1,4 +1,4 @@
-import java.util.Comparator;
+ import java.util.Comparator;
 
 // Ordena em ordem alfabética de setor.
 public class ComparatorPorSetor implements Comparator<Funcionario> {
