@@ -9,7 +9,7 @@ public class OrdenacaoDemo {
         funcionarios.add(new Funcionario("Ana", 7000, "Financeiro"));
         funcionarios.add(new Funcionario("Bruno", 5500, "RH"));
 
-        // 1) Ordenação NATURAL (usa o compareTo definido em Funcionario -> por nome)
+        // 1) Ordenação NATURAL (usa o compareTo definido em  Funcionario -> por nome)
         List<Funcionario> porNome = new ArrayList<>(funcionarios);
         Collections.sort(porNome);
         imprimir("Ordem natural (por nome)", porNome);
