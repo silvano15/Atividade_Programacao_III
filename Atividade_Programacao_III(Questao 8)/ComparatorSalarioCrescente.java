@@ -1,4 +1,4 @@
-import java.util.Comparator;
+ import java.util.Comparator;
 
 // Comparator = uma estratégia de ordenação EXTERNA à classe.
 // Aqui, ordenamos por salário do menor para o maior.
