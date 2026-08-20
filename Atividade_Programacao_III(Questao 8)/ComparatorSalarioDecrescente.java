@@ -1,4 +1,4 @@
-import java.util.Comparator;
+ import java.util.Comparator;
 
 // Ordena por salário do maior para o menor. Repare que é só
 // inverter a ordem dos argumentos em relação ao comparator anterior.
